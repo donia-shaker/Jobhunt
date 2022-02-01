@@ -18,6 +18,9 @@ $(document).ready(function () {
       } else {
         $(this).parentsUntil("div.one").hide();
       }
+      if (filter == "All") {
+        $(".card *").parentsUntil("div.one").show();
+      }
       $("#city").val(filter);
     });
   });
@@ -33,6 +36,9 @@ $(document).ready(function () {
         $(this).parentsUntil("div.one").show();
       } else {
         $(this).parentsUntil("div.one").hide();
+      }
+      if (filter == "All") {
+        $(".card *").parentsUntil("div.one").show();
       }
       $("#company").val(filter);
     });

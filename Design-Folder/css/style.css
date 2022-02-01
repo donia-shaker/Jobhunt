@@ -152,7 +152,6 @@ footer li {
 /* start job page */
 .job-page-sidebar .sidebar {
   height: 100vh;
-  z-index: -4;
 }
 .job-page-content {
   margin-left: 300px;
