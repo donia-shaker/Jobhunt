@@ -1,0 +1,19 @@
+.conatiner.cv .content {
+  width: 80%;
+}
+@media (max-width: 767px) {
+  .conatiner.cv .content {
+    width: 98%;
+  }
+}
+.conatiner.cv img {
+  width: 200px;
+  height: 200px;
+}
+.conatiner.cv .row.left {
+  border-left: 2px solid #7ec5ec;
+  line-height: 2.5;
+}
+.conatiner.cv button {
+  margin-bottom: -40px;
+}
