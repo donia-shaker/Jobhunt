@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+  color: #333;
+}
+.contact-us {
+  margin-top: 150px;
+}
+.top-part .text h1,
+.contact-us .form-part h1 {
+  font-size: 46px;
+  letter-spacing: -1.1px;
+  font-weight: 800;
+}
+.top-part .cards .box {
+  border-radius: 30px;
+  background-color: #e6f0f9;
+}
+.top-part .cards .box i,
+.contact-us .form-part button {
+  border-radius: 20px;
+}
+
+@media (min-width: 767px) {
+  .contact-us .form-part {
+    width: 50%;
+  }
+}

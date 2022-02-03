@@ -1,0 +1,21 @@
+.srv-upper-part {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  height: 500px;
+}
+
+.part-middel {
+  margin: 90px 0;
+}
+.part-middel .cards .box:hover {
+  border: 2px solid var(--mai-color);
+}
+
+@media (max-width: 767px) {
+  .part-middel .cards .box.col {
+    width: 100%;
+  }
+  .srv-upper-part {
+    height: 300px;
+  }
+}

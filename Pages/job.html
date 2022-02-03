@@ -24,7 +24,7 @@
       class="navbar navbar-expand-lg navbar-light bd-blue-800 fixed-top shadow"
     >
       <div class="container">
-        <a class="navbar-brand logo" href="#">Jobhunt</a>
+        <a class="navbar-brand logo" href="../index.html">Jobhunt</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,16 +51,16 @@
               <a class="nav-link" href="#">Jobs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="services.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="about-us.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="courses.html">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Pages/cv.html">Profile</a>
+              <a class="nav-link" href="cv.html">Profile</a>
             </li>
           </ul>
         </div>
@@ -76,9 +76,12 @@
 
     <!-- start sidebar -->
     <div class="job-page-sidebar">
-      <div class="container-fluid">
+      <div class="container-fluid position-relative">
         <div class="row">
-          <div class="col-2 main-color d-none d-lg-block sidebar px-3">
+          <div
+            class="col-2 main-color d-lg-block sidebar px-3 position-fixed position-absolute"
+            id="sidebar"
+          >
             <div class="sidebar-left col-fixed">
               <form action="">
                 <div id="cities" class="my-3">
@@ -118,7 +121,7 @@
     <!-- Start Search Job -->
     <div class="job-page-content">
       <div
-        class="container d-flex flex-column mx-auto mb-5 text-center"
+        class="container d-flex flex-column mx-auto mb-1 text-center"
         style="margin-top: 100px"
       >
         <h2 class="card-title">Start Search For Your Job</h2>
@@ -132,6 +135,14 @@
           />
           <button class="btn btn-primary" type="submit">Search</button>
         </form>
+        <button
+          type="button"
+          id="sidebarCollapse"
+          class="btn mx-auto my-4 btn-info main-color text-white"
+        >
+          <i class="fas fa-align-left"></i>
+          <span>Toggle Sidebar</span>
+        </button>
       </div>
       <!-- End Search Job -->
 
@@ -139,7 +150,7 @@
       <div class="jobs-cards">
         <div class="container">
           <!-- start card one -->
-          <div class="one w-100 w-lg-75">
+          <div class="one w-100 my-4 w-lg-75">
             <a href="../Pages/details.html" class="text-decoration-none">
               <div class="card mb-3 shadow">
                 <div class="row g-0">
@@ -179,7 +190,7 @@
           <!-- End card one -->
 
           <!-- start card Two -->
-          <div class="one w-100 w-75">
+          <div class="one my-4 w-100 w-75">
             <a href="../Pages/details.html" class="text-decoration-none">
               <div class="card mb-3 shadow">
                 <div class="row g-0">
@@ -218,7 +229,7 @@
           <!-- End card Two -->
 
           <!-- start card Three -->
-          <div class="one w-100 w-75">
+          <div class="one my-4 w-100 w-75">
             <a href="../Pages/details.html" class="text-decoration-none">
               <div class="card mb-3 shadow">
                 <div class="row g-0">
@@ -257,7 +268,7 @@
           <!-- End card Three -->
 
           <!-- start card Four -->
-          <div class="one w-100 w-75">
+          <div class="one my-4 w-100 w-75">
             <a href="../Pages/details.html" class="text-decoration-none">
               <div class="card mb-3 shadow">
                 <div class="row g-0">
@@ -295,7 +306,7 @@
           <!-- End card Four -->
 
           <!-- start card Five -->
-          <div class="one w-100 w-lg-75">
+          <div class="one my-4 w-100 w-lg-75">
             <a href="../Pages/details.html" class="text-decoration-none">
               <div class="card mb-3 shadow">
                 <div class="row g-0">
@@ -334,7 +345,7 @@
           <!-- End card Five -->
 
           <!-- start card Six -->
-          <div class="one w-100 w-75">
+          <div class="one my-4 w-100 w-75">
             <a href="../Pages/details.html" class="text-decoration-none">
               <div class="card mb-3 shadow">
                 <div class="row g-0">
@@ -373,7 +384,7 @@
           <!-- End card Six -->
 
           <!-- start card Seven -->
-          <div class="one w-100 w-75">
+          <div class="one my-4 w-100 w-75">
             <a href="../Pages/details.html" class="text-decoration-none">
               <div class="card mb-3 shadow">
                 <div class="row g-0">
@@ -412,7 +423,7 @@
           <!-- End card Seven -->
 
           <!-- start card Eight -->
-          <div class="one w-100 w-75">
+          <div class="one my-4">
             <a href="../Pages/details.html" class="text-decoration-none">
               <div class="card mb-3 shadow">
                 <div class="row g-0">

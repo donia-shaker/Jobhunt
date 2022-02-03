@@ -44,3 +44,12 @@ $(document).ready(function () {
     });
   });
 });
+
+// toggle sidebar
+$(document).ready(function () {
+  $("#sidebarCollapse").on("click", function () {
+    //     $("#sidebarCollapse").css("position : relative","left : 116px",     "width: 110px";
+    // );
+    $("#sidebar").toggleClass("sidebar-active ");
+  });
+});
