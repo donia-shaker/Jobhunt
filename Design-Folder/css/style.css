@@ -5,11 +5,8 @@
 /* start NavBar */
 .navbar {
   background-color: var(--main-color);
-  /* box-shadow: 1px 0px 10px 10px #ccc; */
 }
-* {
-  /* border: 1px solid black; */
-}
+
 body {
   overflow-x: hidden;
 }
@@ -92,10 +89,6 @@ body {
 }
 /* End Slide */
 
-/* Start Last Job */
-/* .card-body {
-  height: 120px;
-} */
 .card:hover {
   border: 2px solid var(--main-color);
 }
@@ -193,4 +186,10 @@ footer li {
 /* End job page */
 .sidebar-active {
   left: 0px;
+}
+
+/* ############################################################## */
+/* member */
+.member {
+  margin-top: 100px;
 }
